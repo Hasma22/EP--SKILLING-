@@ -1,0 +1,4 @@
+create database EP;
+use EP;
+create table Student(Regno int primary key, Name varchar(20) , email varchar(20));
+select *from Student;
