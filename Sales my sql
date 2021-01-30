@@ -1,0 +1,4 @@
+create database Sales;
+use Sales;
+create table Item(itemId int primary key,itemName varchar(20),cost varchar(20));
+select *from Item
